@@ -1,11 +1,11 @@
 ## Purpose of this script to loads 'Electric power consumption' dataset in a 
-## data table called 'epc'. The script assumes 'household_power_consumption.txt' 
-## file exists in the ./data directory
+## data table called 'epc'. 
+## This script assumes 'household_power_consumption.txt' file already exists 
+## in the ./data directory
 ##
 
 library(data.table)
 library(dplyr)
-
 
 
 if(length(list.files("./data/", pattern="household_power_consumption.txt") ) == 1) {

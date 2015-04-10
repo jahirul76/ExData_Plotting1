@@ -2,14 +2,19 @@
 
 source("./load_dataset.R")
 
-##
-windows()
+#
+#windows()
+
+png(filename = "plot1.png", width = 480, height = 480, units = "px")
+
 hist(epc$Global_active_power, 
      col="red", 
      xlab="Global Active Power (killowatts)", 
      main="Global Active Power",
-     breaks= 12)
-dev.copy(png, "plot1.png", width = 480, height = 480, bg="white")
+     )
+
+# dev.copy(png, "plot1.png", width = 480, height = 480)
+
 dev.off()
 
 
