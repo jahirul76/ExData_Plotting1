@@ -2,8 +2,8 @@
 ## This script download 'Electric power consumption' dataset required 
 ## for completing Ploting assignment 1
 ## 
-## 1) It creates data directory if one doesn't already exist.
-## 2) Download dataset from this url (if it doesnt exist)
+## 1) It creates data directory if one doesn't already exists.
+## 2) Download dataset from this url (if it doesnt exists)
 ##     https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip
 ## 3) Extract the file inside to data data directory.
 ## 
