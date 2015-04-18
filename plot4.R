@@ -4,7 +4,7 @@ source("./load_dataset.R")
 
 ##
 #open png grDevice
-png(filename = "plot2.png", width = 480, height = 480, units = "px")
+png(filename = "plot4.png", width = 480, height = 480, units = "px")
 
 # create 2x2 rows
 par(mfrow = c(2, 2))
